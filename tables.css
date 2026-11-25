@@ -1,0 +1,52 @@
+
+/* Body styling */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Heading styling */
+h2 {
+    color: darkblue;
+    text-transform: uppercase;
+}
+
+/* Table styling */
+table {
+    margin: 30px auto;
+    width: 60%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/* Caption styling */
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkgreen;
+    padding: 10px;
+}
+
+/* Table heading */
+th {
+    background-color: navy;
+    color: white;
+    padding: 12px;
+}
+
+/* Table data */
+td {
+    padding: 12px;
+    border: 1px solid black;
+}
+
+/* Alternate row colors */
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+/* Hover effect */
+tr:hover {
+    background-color: lightyellow;
+}
